@@ -1,0 +1,24 @@
+[
+  {
+    "productId": "d8e86ce2-1438-4c69-a859-5a2b37440065",
+    "shelfId": "c2824d97-4a0e-47df-bdeb-5a5547519532",
+    "quantity": 100,
+    "id": "8bea3751-391f-4255-98b1-2d32d3c636ef",
+    "createdAtUtc": "2026-09-26T19:34:00.6865973+00:00"
+  },
+  {
+    "productId": "7fa12286-6e5f-4258-b1f7-1022c754eecf",
+    "shelfId": "c67763a7-b2ef-47fc-b33a-a40d8fe18db1",
+    "quantity": 300,
+    "id": "7ccda820-998f-4534-a109-b48d7cedffda",
+    "createdAtUtc": "2026-09-26T19:34:39.9182722+00:00"
+  },
+  {
+    "productId": "c50a7393-1a4d-43f8-86ad-4a81236a1130",
+    "shelfId": "c67763a7-b2ef-47fc-b33a-a40d8fe18db1",
+    "quantity": 1850,
+    "id": "c86f33b0-3548-47ba-8ce0-575efd8c7dec",
+    "createdAtUtc": "2026-09-26T19:34:39.9236993+00:00",
+    "modifiedAtUtc": "2026-09-26T19:46:00.4582112+00:00"
+  }
+]

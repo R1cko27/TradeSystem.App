@@ -1,0 +1,55 @@
+[
+  {
+    "productId": "c50a7393-1a4d-43f8-86ad-4a81236a1130",
+    "supplierId": "c3da5640-a466-4a62-a0f7-3e38125b26e4",
+    "supplierArticle": "4214125",
+    "purchasePrice": 50,
+    "leadTimeDays": 3,
+    "minimumOrderQuantity": 300,
+    "orderMultiple": 100,
+    "isPreferred": true,
+    "isActive": true,
+    "id": "b9c4615c-dbdc-44fc-8d20-26f763a84653",
+    "createdAtUtc": "2026-09-25T17:52:13.039762+00:00",
+    "modifiedAtUtc": "2026-09-26T14:12:57.6249924+00:00"
+  },
+  {
+    "productId": "d8e86ce2-1438-4c69-a859-5a2b37440065",
+    "supplierId": "4541f6a1-3626-406f-95d7-43b797749615",
+    "purchasePrice": 5000,
+    "leadTimeDays": 1,
+    "minimumOrderQuantity": 1,
+    "orderMultiple": 100,
+    "isPreferred": false,
+    "isActive": true,
+    "id": "4a58afce-4e0b-4d19-944e-86c090cb5a1c",
+    "createdAtUtc": "2026-09-25T17:57:29.0940547+00:00",
+    "modifiedAtUtc": "2026-09-26T14:13:09.3453997+00:00"
+  },
+  {
+    "productId": "7fa12286-6e5f-4258-b1f7-1022c754eecf",
+    "supplierId": "c3da5640-a466-4a62-a0f7-3e38125b26e4",
+    "supplierArticle": "4135",
+    "purchasePrice": 300,
+    "leadTimeDays": 1,
+    "minimumOrderQuantity": 1,
+    "isPreferred": false,
+    "isActive": true,
+    "id": "4401b309-f3df-404c-8d84-d6faa38d42eb",
+    "createdAtUtc": "2026-09-26T14:04:31.333177+00:00",
+    "modifiedAtUtc": "2026-09-26T14:05:00.4023508+00:00"
+  },
+  {
+    "productId": "7fa12286-6e5f-4258-b1f7-1022c754eecf",
+    "supplierId": "4541f6a1-3626-406f-95d7-43b797749615",
+    "supplierArticle": "5415342",
+    "purchasePrice": 295,
+    "leadTimeDays": 2,
+    "minimumOrderQuantity": 100,
+    "isPreferred": true,
+    "isActive": true,
+    "id": "46992731-3b22-4595-983f-bf53a80cee07",
+    "createdAtUtc": "2026-09-26T14:04:54.8849393+00:00",
+    "modifiedAtUtc": "2026-09-26T14:05:00.4038218+00:00"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "number": "GR-20260926-0001",
+    "supplierId": "4541f6a1-3626-406f-95d7-43b797749615",
+    "orderId": "5099b16e-946c-4392-8af9-097832134202",
+    "receivedAtUtc": "2026-09-26T19:34:00.6794959+00:00",
+    "status": "Posted",
+    "lines": [
+      {
+        "orderLineId": "15606e8a-93c3-4f5a-9aba-d672a5f06962",
+        "productId": "d8e86ce2-1438-4c69-a859-5a2b37440065",
+        "productName": "Linux \u0434\u043B\u044F \u0418\u0411",
+        "shelfId": "c2824d97-4a0e-47df-bdeb-5a5547519532",
+        "quantity": 100,
+        "id": "65e7e907-7be1-4483-8b05-1bd7faa9d279",
+        "createdAtUtc": "2026-09-26T19:34:00.6794981+00:00"
+      }
+    ],
+    "id": "7e3539ba-f126-4a8f-9ff8-06c22d9b520a",
+    "createdAtUtc": "2026-09-26T19:34:00.6792302+00:00",
+    "modifiedAtUtc": "2026-09-26T19:34:00.7113054+00:00"
+  },
+  {
+    "number": "GR-20260926-0002",
+    "supplierId": "c3da5640-a466-4a62-a0f7-3e38125b26e4",
+    "orderId": "7bf670f4-410e-433e-a5e8-d78d0aa9411d",
+    "receivedAtUtc": "2026-09-26T19:34:39.9116046+00:00",
+    "status": "Posted",
+    "lines": [
+      {
+        "orderLineId": "f5089b0a-2287-4336-bc67-a2b13ab0616b",
+        "productId": "7fa12286-6e5f-4258-b1f7-1022c754eecf",
+        "productName": "\u0410\u043F\u0435\u043B\u044C\u0441\u0438\u043D\u044B",
+        "shelfId": "c67763a7-b2ef-47fc-b33a-a40d8fe18db1",
+        "quantity": 300,
+        "id": "4eef6f02-c041-4baf-9ec2-a40ad3bb4654",
+        "createdAtUtc": "2026-09-26T19:34:39.9116077+00:00"
+      },
+      {
+        "orderLineId": "af781f74-1d85-4997-a88a-013606b9f2b3",
+        "productId": "c50a7393-1a4d-43f8-86ad-4a81236a1130",
+        "productName": "\u0422\u0440\u0430\u0439\u0444\u043B \u041A\u0430\u0439\u0444\u043B",
+        "shelfId": "c67763a7-b2ef-47fc-b33a-a40d8fe18db1",
+        "quantity": 1000,
+        "id": "fec52f6b-efcc-4bdd-a199-136ab1387533",
+        "createdAtUtc": "2026-09-26T19:34:39.9116091+00:00"
+      }
+    ],
+    "id": "15d178b4-6323-414a-9d1a-836f25ebdec6",
+    "createdAtUtc": "2026-09-26T19:34:39.9107424+00:00",
+    "modifiedAtUtc": "2026-09-26T19:34:39.9272968+00:00"
+  },
+  {
+    "number": "GR-20260926-0003",
+    "supplierId": "c3da5640-a466-4a62-a0f7-3e38125b26e4",
+    "orderId": "d2edd50d-4cdf-4ec5-a2b5-de25dc611c2e",
+    "receivedAtUtc": "2026-09-26T19:36:17.7208538+00:00",
+    "status": "Posted",
+    "lines": [
+      {
+        "orderLineId": "a86b265c-617f-47ad-98d1-55a675b14305",
+        "productId": "c50a7393-1a4d-43f8-86ad-4a81236a1130",
+        "productName": "\u0422\u0440\u0430\u0439\u0444\u043B \u041A\u0430\u0439\u0444\u043B",
+        "shelfId": "c67763a7-b2ef-47fc-b33a-a40d8fe18db1",
+        "quantity": 1000,
+        "id": "806ae9e5-da5b-4c85-bb04-c81f725ce912",
+        "createdAtUtc": "2026-09-26T19:36:17.7208563+00:00"
+      }
+    ],
+    "id": "4588bc10-8b7a-486f-ae32-c288e83d2659",
+    "createdAtUtc": "2026-09-26T19:36:17.720474+00:00",
+    "modifiedAtUtc": "2026-09-26T19:36:25.179593+00:00"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "productId": "d8e86ce2-1438-4c69-a859-5a2b37440065",
+    "shelfId": "c2824d97-4a0e-47df-bdeb-5a5547519532",
+    "quantityDelta": 100,
+    "type": "PurchaseReceipt",
+    "sourceType": "GoodsReceipt",
+    "sourceId": "7e3539ba-f126-4a8f-9ff8-06c22d9b520a",
+    "sourceLineId": "65e7e907-7be1-4483-8b05-1bd7faa9d279",
+    "occurredAtUtc": "2026-09-26T19:34:00.690228+00:00",
+    "id": "66a51260-c46e-4a10-b7cb-283260b5ec38",
+    "createdAtUtc": "2026-09-26T19:34:00.6901164+00:00"
+  },
+  {
+    "productId": "7fa12286-6e5f-4258-b1f7-1022c754eecf",
+    "shelfId": "c67763a7-b2ef-47fc-b33a-a40d8fe18db1",
+    "quantityDelta": 300,
+    "type": "PurchaseReceipt",
+    "sourceType": "GoodsReceipt",
+    "sourceId": "15d178b4-6323-414a-9d1a-836f25ebdec6",
+    "sourceLineId": "4eef6f02-c041-4baf-9ec2-a40ad3bb4654",
+    "occurredAtUtc": "2026-09-26T19:34:39.9195568+00:00",
+    "id": "4df235d1-b500-4640-9aee-820e628b3cc3",
+    "createdAtUtc": "2026-09-26T19:34:39.9195566+00:00"
+  },
+  {
+    "productId": "c50a7393-1a4d-43f8-86ad-4a81236a1130",
+    "shelfId": "c67763a7-b2ef-47fc-b33a-a40d8fe18db1",
+    "quantityDelta": 1000,
+    "type": "PurchaseReceipt",
+    "sourceType": "GoodsReceipt",
+    "sourceId": "15d178b4-6323-414a-9d1a-836f25ebdec6",
+    "sourceLineId": "fec52f6b-efcc-4bdd-a199-136ab1387533",
+    "occurredAtUtc": "2026-09-26T19:34:39.9246462+00:00",
+    "id": "4daad250-7371-4b2d-a756-21c8d4810be4",
+    "createdAtUtc": "2026-09-26T19:34:39.924646+00:00"
+  },
+  {
+    "productId": "c50a7393-1a4d-43f8-86ad-4a81236a1130",
+    "shelfId": "c67763a7-b2ef-47fc-b33a-a40d8fe18db1",
+    "quantityDelta": 1000,
+    "type": "PurchaseReceipt",
+    "sourceType": "GoodsReceipt",
+    "sourceId": "4588bc10-8b7a-486f-ae32-c288e83d2659",
+    "sourceLineId": "806ae9e5-da5b-4c85-bb04-c81f725ce912",
+    "occurredAtUtc": "2026-09-26T19:36:25.1756409+00:00",
+    "id": "1783711f-a133-4049-88da-95f8942b87c3",
+    "createdAtUtc": "2026-09-26T19:36:25.1756407+00:00"
+  },
+  {
+    "productId": "c50a7393-1a4d-43f8-86ad-4a81236a1130",
+    "shelfId": "c67763a7-b2ef-47fc-b33a-a40d8fe18db1",
+    "quantityDelta": -150,
+    "type": "Sale",
+    "sourceType": "Sale",
+    "sourceId": "bb4f166d-df7a-4524-8e4d-2238a9e43500",
+    "sourceLineId": "c195ed24-e57d-4f84-aa09-d77f8c43fab3",
+    "occurredAtUtc": "2026-09-26T19:46:00.4609802+00:00",
+    "id": "349ab94e-182c-467b-9afc-fc9b81bad11a",
+    "createdAtUtc": "2026-09-26T19:46:00.4608687+00:00"
+  }
+]

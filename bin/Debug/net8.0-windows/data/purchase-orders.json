@@ -1,0 +1,170 @@
+[
+  {
+    "number": "PO-20260926-0001",
+    "supplierId": "4541f6a1-3626-406f-95d7-43b797749615",
+    "orderDateUtc": "2026-09-26T14:06:13.6014569+00:00",
+    "status": "Confirmed",
+    "totalAmount": 1000295,
+    "lines": [
+      {
+        "productId": "d8e86ce2-1438-4c69-a859-5a2b37440065",
+        "supplierProductId": "4a58afce-4e0b-4d19-944e-86c090cb5a1c",
+        "productName": "Linux \u0434\u043B\u044F \u0418\u0411",
+        "unit": "Piece",
+        "orderedQuantity": 1,
+        "receivedQuantity": 0,
+        "unitPrice": 1000000,
+        "totalPrice": 1000000,
+        "isClosed": false,
+        "id": "b9c31741-6780-4379-8324-3ceed83b6975",
+        "createdAtUtc": "2026-09-26T14:06:13.6015988+00:00"
+      },
+      {
+        "productId": "7fa12286-6e5f-4258-b1f7-1022c754eecf",
+        "supplierProductId": "46992731-3b22-4595-983f-bf53a80cee07",
+        "productName": "\u0410\u043F\u0435\u043B\u044C\u0441\u0438\u043D\u044B",
+        "unit": "Piece",
+        "orderedQuantity": 1,
+        "receivedQuantity": 0,
+        "unitPrice": 295,
+        "totalPrice": 295,
+        "isClosed": false,
+        "id": "3b812d38-21d4-42f7-88c8-aa7ffb9796cd",
+        "createdAtUtc": "2026-09-26T14:06:13.6017534+00:00"
+      }
+    ],
+    "id": "c74cd521-548b-4353-963c-ded9f427ba7b",
+    "createdAtUtc": "2026-09-26T14:06:13.5935978+00:00",
+    "modifiedAtUtc": "2026-09-26T14:07:43.3409756+00:00"
+  },
+  {
+    "number": "PO-20260926-0002",
+    "supplierId": "4541f6a1-3626-406f-95d7-43b797749615",
+    "orderDateUtc": "2026-09-26T14:06:27.6460928+00:00",
+    "status": "Confirmed",
+    "totalAmount": 100088500,
+    "comment": "\u0421\u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u043F\u043E \u0434\u0435\u0444\u0438\u0446\u0438\u0442\u0443.",
+    "lines": [
+      {
+        "productId": "7fa12286-6e5f-4258-b1f7-1022c754eecf",
+        "supplierProductId": "46992731-3b22-4595-983f-bf53a80cee07",
+        "productName": "\u0410\u043F\u0435\u043B\u044C\u0441\u0438\u043D\u044B",
+        "unit": "Piece",
+        "orderedQuantity": 300,
+        "receivedQuantity": 0,
+        "unitPrice": 295,
+        "totalPrice": 88500,
+        "isClosed": false,
+        "id": "61351e4e-254c-47da-ad49-3e0553f8369c",
+        "createdAtUtc": "2026-09-26T14:06:27.6463482+00:00"
+      },
+      {
+        "productId": "d8e86ce2-1438-4c69-a859-5a2b37440065",
+        "supplierProductId": "4a58afce-4e0b-4d19-944e-86c090cb5a1c",
+        "productName": "Linux \u0434\u043B\u044F \u0418\u0411",
+        "unit": "Piece",
+        "orderedQuantity": 100,
+        "receivedQuantity": 0,
+        "unitPrice": 1000000,
+        "totalPrice": 100000000,
+        "isClosed": false,
+        "id": "d1f9e35d-4a6d-43d5-aecb-b900cd80bfd7",
+        "createdAtUtc": "2026-09-26T14:06:27.6463505+00:00"
+      }
+    ],
+    "id": "9acf114f-6f99-412f-ba29-6410960db127",
+    "createdAtUtc": "2026-09-26T14:06:27.6452696+00:00",
+    "modifiedAtUtc": "2026-09-26T14:07:41.5093973+00:00"
+  },
+  {
+    "number": "PO-20260926-0003",
+    "supplierId": "c3da5640-a466-4a62-a0f7-3e38125b26e4",
+    "orderDateUtc": "2026-09-26T14:06:27.6491546+00:00",
+    "status": "Received",
+    "totalAmount": 100000000,
+    "comment": "\u0421\u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u043F\u043E \u0434\u0435\u0444\u0438\u0446\u0438\u0442\u0443.",
+    "lines": [
+      {
+        "productId": "c50a7393-1a4d-43f8-86ad-4a81236a1130",
+        "supplierProductId": "b9c4615c-dbdc-44fc-8d20-26f763a84653",
+        "productName": "\u0422\u0440\u0430\u0439\u0444\u043B \u041A\u0430\u0439\u0444\u043B",
+        "unit": "Piece",
+        "orderedQuantity": 1000,
+        "receivedQuantity": 1000,
+        "unitPrice": 100000,
+        "totalPrice": 100000000,
+        "isClosed": true,
+        "id": "a86b265c-617f-47ad-98d1-55a675b14305",
+        "createdAtUtc": "2026-09-26T14:06:27.649156+00:00"
+      }
+    ],
+    "id": "d2edd50d-4cdf-4ec5-a2b5-de25dc611c2e",
+    "createdAtUtc": "2026-09-26T14:06:27.6486684+00:00",
+    "modifiedAtUtc": "2026-09-26T19:36:25.1780986+00:00"
+  },
+  {
+    "number": "PO-20260926-0004",
+    "supplierId": "c3da5640-a466-4a62-a0f7-3e38125b26e4",
+    "orderDateUtc": "2026-09-26T14:13:32.8372959+00:00",
+    "status": "Received",
+    "totalAmount": 140000,
+    "comment": "\u0421\u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u043F\u043E \u0434\u0435\u0444\u0438\u0446\u0438\u0442\u0443.",
+    "lines": [
+      {
+        "productId": "7fa12286-6e5f-4258-b1f7-1022c754eecf",
+        "supplierProductId": "4401b309-f3df-404c-8d84-d6faa38d42eb",
+        "productName": "\u0410\u043F\u0435\u043B\u044C\u0441\u0438\u043D\u044B",
+        "unit": "Piece",
+        "orderedQuantity": 300,
+        "receivedQuantity": 300,
+        "unitPrice": 300,
+        "totalPrice": 90000,
+        "isClosed": true,
+        "id": "f5089b0a-2287-4336-bc67-a2b13ab0616b",
+        "createdAtUtc": "2026-09-26T14:13:32.8372975+00:00"
+      },
+      {
+        "productId": "c50a7393-1a4d-43f8-86ad-4a81236a1130",
+        "supplierProductId": "b9c4615c-dbdc-44fc-8d20-26f763a84653",
+        "productName": "\u0422\u0440\u0430\u0439\u0444\u043B \u041A\u0430\u0439\u0444\u043B",
+        "unit": "Piece",
+        "orderedQuantity": 1000,
+        "receivedQuantity": 1000,
+        "unitPrice": 50,
+        "totalPrice": 50000,
+        "isClosed": true,
+        "id": "af781f74-1d85-4997-a88a-013606b9f2b3",
+        "createdAtUtc": "2026-09-26T14:13:32.8373001+00:00"
+      }
+    ],
+    "id": "7bf670f4-410e-433e-a5e8-d78d0aa9411d",
+    "createdAtUtc": "2026-09-26T14:13:32.8369961+00:00",
+    "modifiedAtUtc": "2026-09-26T19:34:39.9262021+00:00"
+  },
+  {
+    "number": "PO-20260926-0005",
+    "supplierId": "4541f6a1-3626-406f-95d7-43b797749615",
+    "orderDateUtc": "2026-09-26T14:13:32.8402277+00:00",
+    "status": "Received",
+    "totalAmount": 500000,
+    "comment": "\u0421\u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u043F\u043E \u0434\u0435\u0444\u0438\u0446\u0438\u0442\u0443.",
+    "lines": [
+      {
+        "productId": "d8e86ce2-1438-4c69-a859-5a2b37440065",
+        "supplierProductId": "4a58afce-4e0b-4d19-944e-86c090cb5a1c",
+        "productName": "Linux \u0434\u043B\u044F \u0418\u0411",
+        "unit": "Piece",
+        "orderedQuantity": 100,
+        "receivedQuantity": 100,
+        "unitPrice": 5000,
+        "totalPrice": 500000,
+        "isClosed": true,
+        "id": "15606e8a-93c3-4f5a-9aba-d672a5f06962",
+        "createdAtUtc": "2026-09-26T14:13:32.8402308+00:00"
+      }
+    ],
+    "id": "5099b16e-946c-4392-8af9-097832134202",
+    "createdAtUtc": "2026-09-26T14:13:32.839511+00:00",
+    "modifiedAtUtc": "2026-09-26T19:34:00.7061742+00:00"
+  }
+]
