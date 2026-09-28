@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\TradeSystem\TradeSystem.App\obj\Debug\net8.0-windows\
+d:\TradeSystem\TradeSystem.App\obj\Debug\net8.0-windows\
 TradeSystem
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\TradeSystem\TradeSystem.App\App.xaml
+d:\TradeSystem\TradeSystem.App\App.xaml
 19-970491931
 
-110-1847094672
-201-465745541
+130-852944775
+402-931491082
 MainWindow.xaml;Resources\Styles.xaml;Views\InvoiceListView.xaml;Views\OrderAutoPreviewView.xaml;Views\OrderManualEditView.xaml;Views\OrdersView.xaml;Views\ProductEditView.xaml;Views\ProductsView.xaml;Views\ReceiptEditView.xaml;Views\ReceiptsView.xaml;Views\ReportsView.xaml;Views\SaleEditView.xaml;Views\SalesView.xaml;Views\ShelfEditView.xaml;Views\ShelvesView.xaml;Views\SupplierEditView.xaml;Views\SupplierProductEditView.xaml;Views\SupplierProductsView.xaml;Views\SuppliersView.xaml;
 
-True
+False
 

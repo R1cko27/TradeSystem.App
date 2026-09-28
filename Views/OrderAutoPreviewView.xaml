@@ -3,20 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid Margin="14">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>   <!-- 0: заголовок страницы -->
-            <RowDefinition Height="Auto"/>   <!-- 1: описание -->
-            <RowDefinition Height="Auto"/>   <!-- 2: панель «Добавить товар / + В план / Убрать доп.» -->
-            <RowDefinition Height="*"/>      <!-- 3: таблица позиций плана -->
-            <RowDefinition Height="Auto"/>   <!-- 4: итог -->
-            <RowDefinition Height="Auto"/>   <!-- 5: кнопки формирования -->
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0" Text="Автоформирование заказов по дефициту" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,4"/>
         <TextBlock Grid.Row="1" Margin="0,0,0,10" Foreground="Gray" TextWrapping="Wrap"
                    Text="Система подобрала товары, которые нужно пополнить. Для товаров с несколькими поставщиками выберите нужного — заказ будет разбит по поставщикам автоматически."/>
 
-        <!-- Добавление дополнительного товара: отдельная строка сетки, чтобы таблица её не перекрывала -->
-        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,8">
+        <!-- Добавление дополнительного товара -->
+        <DockPanel Grid.Row="2" VerticalAlignment="Top" Height="0" Margin="0"/><!-- spacer -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,8" VerticalAlignment="Top" HorizontalAlignment="Left">
             <TextBlock Text="Добавить товар:" VerticalAlignment="Center" Margin="0,0,6,0"/>
             <ComboBox Width="260" ItemsSource="{Binding AllActiveProducts}" SelectedValuePath="Id" DisplayMemberPath="Name"
                       SelectedItem="{Binding ProductToAdd}" Margin="0,0,8,0"/>
@@ -24,7 +24,7 @@
             <Button Content="Убрать доп." Command="{Binding RemoveAdditionalCommand}" Padding="8,3"/>
         </StackPanel>
 
-        <DataGrid Grid.Row="3" Margin="0"
+        <DataGrid Grid.Row="2" Margin="0,40,0,0"
                   ItemsSource="{Binding Rows}" AutoGenerateColumns="False" IsReadOnly="True"
                   CanUserAddRows="False" HeadersVisibility="Column">
             <DataGrid.Columns>
@@ -65,7 +65,7 @@
         </DataGrid>
 
         <!-- Предупреждения -->
-        <ItemsControl Grid.Row="4" ItemsSource="{Binding Warnings}" Margin="0,8,0,0">
+        <ItemsControl Grid.Row="3" ItemsSource="{Binding Warnings}" Margin="0,8,0,0">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding}" Foreground="#C0392B" TextWrapping="Wrap" Margin="0,1"/>
@@ -73,7 +73,7 @@
             </ItemsControl.ItemTemplate>
         </ItemsControl>
 
-        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="0,12,0,0">
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0,12,0,0">
             <Button Content="Создать заказы" Command="{Binding ConfirmCommand}" Padding="14,6" FontWeight="SemiBold" Margin="0,0,8,0"/>
             <Button Content="Отмена" Command="{Binding CancelCommand}" Padding="14,6"/>
             <TextBlock Text="Загрузка..." VerticalAlignment="Center" Margin="16,0,0,0" Foreground="Gray"
