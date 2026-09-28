@@ -9,6 +9,7 @@
              xmlns:vmInv="clr-namespace:TradeSystem.App.ViewModels.Invoices"
              xmlns:vmRec="clr-namespace:TradeSystem.App.ViewModels.Receipts"
              xmlns:vmSale="clr-namespace:TradeSystem.App.ViewModels.Sales"
+             xmlns:vmRep="clr-namespace:TradeSystem.App.ViewModels.Reports"
              xmlns:views="clr-namespace:TradeSystem.App.Views">
     <Application.Resources>
         <ResourceDictionary>
@@ -39,6 +40,8 @@
 
             <DataTemplate DataType="{x:Type vmSale:SalesListViewModel}"><views:SalesView/></DataTemplate>
             <DataTemplate DataType="{x:Type vmSale:SaleEditViewModel}"><views:SaleEditView/></DataTemplate>
+
+            <DataTemplate DataType="{x:Type vmRep:ReportsViewModel}"><views:ReportsView/></DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

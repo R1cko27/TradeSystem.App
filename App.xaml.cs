@@ -9,6 +9,7 @@ using TradeSystem.App.ViewModels.Invoices;
 using TradeSystem.App.ViewModels.Orders;
 using TradeSystem.App.ViewModels.Products;
 using TradeSystem.App.ViewModels.Receipts;
+using TradeSystem.App.ViewModels.Reports;
 using TradeSystem.App.ViewModels.Sales;
 using TradeSystem.App.ViewModels.Shelves;
 using TradeSystem.App.ViewModels.SupplierProducts;
@@ -33,6 +34,7 @@ namespace TradeSystem.App
             services.AddTradeSystemJsonPersistence();
             services.AddTradeSystemApplication();
             services.AddSingleton<IDialogService, DialogService>();
+            services.AddSingleton<IDocumentOutputService, DocumentOutputService>();
 
             services.AddSingleton<ProductsListViewModel>();
             services.AddSingleton<ProductEditViewModel>();
@@ -50,6 +52,7 @@ namespace TradeSystem.App
             services.AddSingleton<ReceiptEditViewModel>();
             services.AddSingleton<SalesListViewModel>();
             services.AddSingleton<SaleEditViewModel>();
+            services.AddSingleton<ReportsViewModel>();
             services.AddSingleton<MainViewModel>();
 
             Services = services.BuildServiceProvider();

@@ -17,7 +17,7 @@
                 <Button Style="{StaticResource MenuButton}" Content="📥 Поступления" Command="{Binding ReceiptsCommand}"/>
                 <Button Style="{StaticResource MenuButton}" Content="📤 Продажи" Command="{Binding SalesCommand}"/>
                 <Separator Margin="4,8"/>
-                <Button Style="{StaticResource MenuButton}" Content="🖨 Отчеты" Command="{Binding FeatureCommand}" CommandParameter="Отчеты для печати"/>
+                <Button Style="{StaticResource MenuButton}" Content="🖨 Отчеты" Command="{Binding ReportsCommand}"/>
             </StackPanel>
         </Border>
         <ContentControl Content="{Binding CurrentViewModel}" Margin="0"/>

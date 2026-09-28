@@ -9,6 +9,7 @@ using TradeSystem.App.ViewModels.Invoices;
 using TradeSystem.App.ViewModels.Orders;
 using TradeSystem.App.ViewModels.Products;
 using TradeSystem.App.ViewModels.Receipts;
+using TradeSystem.App.ViewModels.Reports;
 using TradeSystem.App.ViewModels.Sales;
 using TradeSystem.App.ViewModels.Shelves;
 using TradeSystem.App.ViewModels.SupplierProducts;
@@ -34,6 +35,7 @@ public partial class MainViewModel : ViewModelBase
     private readonly ReceiptEditViewModel _receiptEdit;
     private readonly SalesListViewModel _salesList;
     private readonly SaleEditViewModel _saleEdit;
+    private readonly ReportsViewModel _reports;
 
     [ObservableProperty]
     private object? _currentViewModel;
@@ -47,6 +49,7 @@ public partial class MainViewModel : ViewModelBase
         OrderManualEditViewModel manualEdit, InvoiceListViewModel invoiceList,
         ReceiptsListViewModel receiptsList, ReceiptEditViewModel receiptEdit,
         SalesListViewModel salesList, SaleEditViewModel saleEdit,
+        ReportsViewModel reports,
         IDialogService dialog)
         : base(dialog)
     {
@@ -57,6 +60,7 @@ public partial class MainViewModel : ViewModelBase
         _ordersList = ordersList; _autoPreview = autoPreview; _manualEdit = manualEdit; _invoiceList = invoiceList;
         _receiptsList = receiptsList; _receiptEdit = receiptEdit;
         _salesList = salesList; _saleEdit = saleEdit;
+        _reports = reports;
 
         _productsList.AddRequested += () => _ = _productEdit.LoadAsync(null).ContinueWith(_ => CurrentViewModel = (object)_productEdit);
         _productsList.EditRequested += id => _ = _productEdit.LoadAsync(id).ContinueWith(_ => CurrentViewModel = (object)_productEdit);
@@ -99,6 +103,7 @@ public partial class MainViewModel : ViewModelBase
     [RelayCommand] private Task OrdersAsync() => NavigateToAsync(_ordersList);
     [RelayCommand] private Task ReceiptsAsync() => NavigateToAsync(_receiptsList);
     [RelayCommand] private Task SalesAsync() => NavigateToAsync(_salesList);
+    [RelayCommand] private Task ReportsAsync() => NavigateToAsync(_reports);
 
     [RelayCommand]
     private void Feature(string? name) =>
