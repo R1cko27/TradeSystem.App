@@ -20,7 +20,7 @@
             <TextBlock Grid.Column="2" VerticalAlignment="Center" Margin="16,0,0,0" Foreground="Gray"
                        Text="Выберите поставщика — список товаров обновится автоматически."/>
         </Grid>
-
+    
         <DockPanel Grid.Row="2" Margin="0,0,0,6">
             <Button DockPanel.Dock="Right" Content="Удалить позицию" Command="{Binding RemoveLineCommand}" Margin="6,0,0,0" Padding="8,3"/>
             <Button DockPanel.Dock="Right" Content="+ Позиция" Command="{Binding AddLineCommand}" Padding="8,3" FontWeight="SemiBold"/>

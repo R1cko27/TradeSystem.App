@@ -16,7 +16,7 @@
         <DockPanel Grid.Row="0" Grid.ColumnSpan="3" LastChildFill="True" Margin="0,0,0,8">
             <Button DockPanel.Dock="Right" Content="Обновить" Command="{Binding RefreshCommand}" Margin="6,0,0,0" Padding="10,4"/>
             <Button DockPanel.Dock="Right" Content="Новый вручную" Command="{Binding NewManualCommand}" Margin="6,0,0,0" Padding="10,4"/>
-            <Button DockPanel.Dock="Right" Content="⚡ Автопо дефициту" Command="{Binding AutoGenerateCommand}" Margin="6,0,0,0" Padding="10,4" FontWeight="SemiBold"/>
+            <Button DockPanel.Dock="Right" Content="⚡ Автоподбор по дефициту" Command="{Binding AutoGenerateCommand}" Margin="6,0,0,0" Padding="10,4" FontWeight="SemiBold"/>
             <CheckBox DockPanel.Dock="Right" Content="Показывать отменённые" IsChecked="{Binding ShowCancelled}" VerticalAlignment="Center" Margin="12,0"/>
             <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" Padding="4"
                      ToolTip="Поиск по номеру заказа или поставщику"/>
